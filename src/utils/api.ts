@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const localHost = 'localhost';
+export const localHost = '127.0.0.1';
 
 export const port = '3001';
 

@@ -13,7 +13,7 @@ function Orders() {
       transports: ['websocket'],
     });
 
-    socket.on('order@new', (order) => {
+    socket.on('orders@new', (order) => {
       setOrders((prevState) => prevState.concat(order));
     });
   }, []);
